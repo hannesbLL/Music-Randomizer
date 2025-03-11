@@ -55,7 +55,7 @@ export default function MusicGenreRandomizer() {
       />
 
       <button className="spin-button" onClick={spinWheel} disabled={isSpinning}>
-        {isSpinning ? "Spinning..." : "🎶 Spin the Wheel"}
+        {isSpinning ? "FETCHING GENRE..." : "SPIN THE WHEEL"}
       </button>
 
       {selectedGenre && (
