@@ -1,0 +1,75 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(to bottom, #EB672C, #EB672C);
+    color: white;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centering the app content */
+.app-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.0);
+}
+
+/* Spinning wheel */
+.wheel-small {
+    width: 300px; /* Adjust this value to make it smaller */
+    height: 300px;
+    border-radius: 50%; /* Makes it a perfect circle */
+    object-fit: cover; /* Ensures the image fits inside the circle */
+    display: block;
+    margin: 20px auto; /* Centers it horizontally */
+  }
+  
+
+/* Button styling */
+.spin-button {
+    background-color: #F5CB6C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.spin-button:hover {
+    background-color: #224F55;
+}
+
+/* Genre Display */
+.genre-box {
+    background: rgba(38, 48, 55, 1);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Audio player styling */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+.logo-drop-shadow {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+.enhanced-button {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px; /* Slightly spread apart */
+    transform: scale(1.3); /* 50% larger */
+  }
+.spaced-buttons .play-button {
+    margin: 0 10px; /* Adjust this value to experiment with the spacing */
+  }
